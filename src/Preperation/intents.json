@@ -1,0 +1,132 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Whats up",
+        "Hey",
+        "greetings"
+      ],
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Have a Good day",
+        "bye",
+        "cao",
+        "see ya"
+      ],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+      "context_set": ""
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "What is progamming?",
+        "What is coding?",
+        "Tell me about programming",
+        "Tell me about coding",
+        "What is software development?"
+      ],
+      "responses": [
+        "Programming, coding or software development, means writing computer code to automate tasks."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "how",
+      "patterns": [
+        "How are you?",
+        "How is your day?",
+        "How do you feel?",
+        "Are you good?"
+      ],
+      "responses": ["I am fine, thanks for asking!", "I feel great!"],
+      "context_set": ""
+    },
+    {
+      "tag": "flask",
+      "patterns": [
+        "What is Flask?",
+        "Do you know about Flask?",
+        "Can you tell me something about Flask?",
+        "Explain Flask to me!"
+      ],
+      "responses": [
+        "Flask is a Python web development framework, which is very simple and minimalistic."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "Is it raining?",
+        "How's the weather today?",
+        "Tell me the weather forecast",
+        "What's the temperature?"
+      ],
+      "responses": [
+        "Sorry, I can't provide real-time weather updates right now.",
+        "I don't have access to live weather data, but you can check a weather app."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Can you make me laugh?",
+        "Tell me something funny",
+        "Give me a joke"
+      ],
+      "responses": [
+        "Why don't skeletons fight each other? They don't have the guts!",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "tech_news",
+      "patterns": [
+        "What's new in technology?",
+        "Tell me the latest tech news",
+        "What's trending in tech?",
+        "What's new in the world of gadgets?"
+      ],
+      "responses": [
+        "I can't browse the internet, but I suggest checking tech news websites for the latest updates.",
+        "For the latest tech news, check platforms like TechCrunch or Wired."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Tell me the time",
+        "What’s the current time?"
+      ],
+      "responses": [
+        "Sorry, I can't tell the time right now.",
+        "Check your device for the current time."
+      ],
+      "context_set": ""
+    }
+  ]
+}
