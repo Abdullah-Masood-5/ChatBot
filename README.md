@@ -1,4 +1,3 @@
-
 # Simple Chatbot using Python and TensorFlow
 
 This project is a simple chatbot implemented using Python and TensorFlow. The chatbot is trained to recognize various intents and respond accordingly. The intents and responses are defined in a JSON file, and the model is trained using a neural network.
@@ -51,9 +50,4 @@ Type your messages to the chatbot in the console. To exit, type `exit`.
 ## Intents
 The intents and responses are defined in the `intents.json` file. You can modify this file to add new intents or update existing ones.
 
-## Acknowledgements
-- TensorFlow
-- NLTK
-- NumPy
-
-
+---
