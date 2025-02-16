@@ -4,14 +4,12 @@ This project is a simple chatbot implemented using Python and TensorFlow. The ch
 
 ## Project Structure
 ```
-.gitignore         # Specifies files and directories to be ignored by Git
-launch.json        # Configuration for debugging in Visual Studio Code
-cb.py             # Main script to run the chatbot
-chatbot_model.h5  # Trained model file
-classes.pkl       # Pickle file containing the classes (intents)
-intents.json      # JSON file defining the intents and responses
-training.ipynb    # Jupyter notebook used for training the model
-words.pkl         # Pickle file containing the words
+.gitignore         
+cb.py             
+chatbot_model.h5  
+intents.json     
+training.ipynb    
+
 ```
 
 ## Requirements
