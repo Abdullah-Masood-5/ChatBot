@@ -13,7 +13,7 @@ training.ipynb
 ```
 
 ## Requirements
-- Python 3.12.5
+- Python
 - TensorFlow
 - NLTK
 - NumPy
@@ -21,7 +21,7 @@ training.ipynb
 ## Setup
 ### Clone the repository:
 ```sh
-git clone https://github.com/your-repository/chatbot.git
+git clone https://github.com/Abdullah-Masood-5/ChatBot.git
 cd chatbot
 ```
 ### Install the required packages:
